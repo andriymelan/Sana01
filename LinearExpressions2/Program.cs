@@ -1,4 +1,9 @@
-﻿Console.WriteLine("Введіть число m: ");
+﻿using System.Text;
+
+Console.InputEncoding = Encoding.Unicode;
+Console.OutputEncoding = Encoding.Unicode;
+
+Console.WriteLine("Введіть число m: ");
 double m = double.Parse(Console.ReadLine());
 Console.WriteLine("Введіть число n: ");
 double n = double.Parse(Console.ReadLine());
